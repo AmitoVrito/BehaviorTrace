@@ -1,0 +1,11 @@
+experiment_id: "E1.1"
+block: E1
+runtime: !include ../runtime/colab.yaml
+model: !include ../models/qwen_small.yaml
+regime: !include ../regimes/ppo.yaml
+behavior: !include ../behaviors/injected_ground_truth.yaml
+seeds: [0, 1, 2]
+notes: |
+  Injected-behavior ground truth: contaminate a controlled subset of
+  rollouts rewarding a spurious pattern. Verify the injected behavior
+  reliably emerges and is measurable on P_b.

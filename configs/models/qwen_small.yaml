@@ -1,0 +1,6 @@
+# Qwen small - cross-model generality (an earlier experiment).
+hf_id: Qwen/Qwen2.5-0.5B-Instruct
+revision: null
+dtype: bfloat16
+use_lora: false
+lora_r: null

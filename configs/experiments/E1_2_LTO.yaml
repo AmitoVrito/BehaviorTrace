@@ -1,0 +1,13 @@
+experiment_id: "E1.2"
+block: E1
+runtime: !include ../runtime/colab.yaml
+model: !include ../models/qwen_small.yaml
+regime: !include ../regimes/ppo.yaml
+behavior: !include ../behaviors/injected_ground_truth.yaml
+seeds: [0, 1, 2]
+notes: |
+  Leave-trajectory-out causal re-run. THE BACKBONE - every attribution
+  claim in the paper validated through this harness.
+  Success: removing true contaminating rollouts drives s_b toward clean
+  baseline; removing random/magnitude-matched rollouts of equal size
+  does not.

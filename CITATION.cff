@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use BehaviorTrace, please cite the paper and this repository."
+title: "BehaviorTrace: an evaluation harness for training-data attribution in online RL"
+abstract: "Open evaluation harness accompanying the paper 'Which Rollout Taught It That? BehaviorTrace and the Limits of Training-Data Attribution in Online RL'."
+version: "1.0-paper"
+date-released: "2026-10-07"
+license: Apache-2.0
+url: "https://github.com/AmitoVrito/BehaviorTrace"
+authors:
+  - family-names: Nautiyal
+    given-names: Amit
+    affiliation: "Independent Researcher"
+    email: research.amit.n@gmail.com

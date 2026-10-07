@@ -1,0 +1,9 @@
+# GRPO via TRL. Knobs are placeholders.
+regime: grpo
+learning_rate: 5.0e-6
+batch_size: 8
+total_steps: 5000
+seed: 0
+extra:
+  num_generations: 8  # group size for relative advantage
+  beta: 0.04

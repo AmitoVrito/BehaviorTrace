@@ -1,0 +1,89 @@
+{
+  "note": "Table 3 (rollout-level minimal-pair) values for seeds 0 and 1, extracted from the saved run notebooks E2_1_per_rollout_mp_seed{0,1}. Those runs predate per-rollout row saving, so the row files do not exist; the executed notebooks are available on request. Each value is [point, ci_lo, ci_hi]. The paper cites the residualized GAS_centered and norm_only entries.",
+  "seed0": {
+    "residualized": {
+      "GAS_centered": [
+        0.486,
+        0.415,
+        0.57
+      ],
+      "plain_cosine": [
+        0.477,
+        0.398,
+        0.558
+      ],
+      "norm_only": [
+        0.726,
+        0.655,
+        0.787
+      ],
+      "within_group_pairs": 562
+    },
+    "matched": {
+      "GAS_centered": [
+        0.529,
+        0.382,
+        0.688
+      ],
+      "plain_cosine": [
+        0.529,
+        0.382,
+        0.672
+      ],
+      "norm_only": [
+        0.77,
+        0.667,
+        0.868
+      ],
+      "pairs": 87
+    },
+    "fluency_raw_auc": [
+      0.776,
+      0.721,
+      0.824
+    ]
+  },
+  "seed1": {
+    "residualized": {
+      "GAS_centered": [
+        0.624,
+        0.548,
+        0.7
+      ],
+      "plain_cosine": [
+        0.602,
+        0.518,
+        0.684
+      ],
+      "norm_only": [
+        0.524,
+        0.428,
+        0.615
+      ],
+      "within_group_pairs": 452
+    },
+    "matched": {
+      "GAS_centered": [
+        0.686,
+        0.569,
+        0.791
+      ],
+      "plain_cosine": [
+        0.709,
+        0.583,
+        0.821
+      ],
+      "norm_only": [
+        0.43,
+        0.277,
+        0.576
+      ],
+      "pairs": 86
+    },
+    "fluency_raw_auc": [
+      0.838,
+      0.787,
+      0.886
+    ]
+  }
+}

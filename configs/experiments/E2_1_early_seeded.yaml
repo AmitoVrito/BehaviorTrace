@@ -1,0 +1,12 @@
+experiment_id: "E2.1"
+block: E2
+runtime: !include ../runtime/colab.yaml
+model: !include ../models/qwen_small.yaml
+regime: !include ../regimes/ppo.yaml
+behavior: !include ../behaviors/injected_ground_truth.yaml
+seeds: [0, 1, 2]
+notes: |
+  The cross-step comparison (C1). Inject the behavior early in training and
+  compare global cross-step attribution vs. Hu et al. local-buffer at
+  recovering early-seeded rollouts. The gap should widen the earlier
+  the seeding (motivated by RLVR-linearity, arXiv:2601.04537).

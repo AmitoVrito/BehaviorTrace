@@ -1,0 +1,9 @@
+# Target behavior 2 - deliberately injected for E1.1 controlled ground truth.
+name: injected_ground_truth
+probe_set_path: data/probes/injected/probes.jsonl
+control_probe_set_path: data/probes/injected/controls.jsonl
+score_fn: rate
+description: |
+  An artificially injected pattern (e.g., reward a specific spurious
+  template) used to establish ground-truth provenance for E1.1 / E1.2 /
+  E1.3 precision@k and LDS measurements.

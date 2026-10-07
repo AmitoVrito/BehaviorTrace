@@ -1,0 +1,7 @@
+# Local dev / CPU smoke testing.
+profile: local
+artifacts_root: ./experiments
+checkpoint_every_steps: 50
+resume_from_latest: true
+wandb_project: behaviortrace
+wandb_entity: null

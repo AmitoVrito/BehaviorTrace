@@ -1,0 +1,7 @@
+#  - Colab Pro runtime profile.
+profile: colab
+artifacts_root: /content/drive/MyDrive/behaviortrace
+checkpoint_every_steps: 250  # frequent, session-disconnect risk
+resume_from_latest: true
+wandb_project: behaviortrace
+wandb_entity: null  # set per author
